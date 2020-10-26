@@ -1,0 +1,32 @@
+@font-face {
+  font-family: gotham-gr-bold;
+  src: url(fonts/gothamfont/GothamGRBold.otf);
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home-page-section {
+  height: 100vh;
+}
+
+.button-white {
+  font-family: gotham-gr-bold;
+  font-weight: bold;
+  font-size: 2vw;
+  display: block;
+  padding: 4px;
+  width: 15vw;
+  margin: auto;
+  border: 2px solid white;
+  margin-bottom: 16px;
+  transition: border-color 0.1s, background 0.1s, color 0.1s;
+}
+
+.button-white:hover {
+  border-color: #ca68c6;
+  background: #ca68c6 !important;
+  color: black;
+}
